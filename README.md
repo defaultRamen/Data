@@ -1,2 +1,7 @@
 # Data
-Send packet
+
+任意のパケットを指定した場所に送信します。
+
+自分自身にパケットを送る場合は、ReceiveDataクラスを起動した後、shellに「java SendData localhost 1234 <送信したいデータの内容>」と記述し実行して下さい。
+
+## このプログラムに関わるいかなる問題が発生した場合でも開発者defaultRamenは一切責任を負いません。
